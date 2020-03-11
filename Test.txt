@@ -1,9 +1,11 @@
 class MyClass{
 
-	void myMethod(){
+	static void myMethod(){
 		sysout("Mymethod");
 	}
 	public static void main(String args[]){
 	System.out.println("Welcome")	;
+	
+	Myclass.myMethod();
 }
 }
